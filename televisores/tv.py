@@ -4,10 +4,10 @@ class TV:
     def __init__(self, marca, estado):
         self._marca = marca
         self._estado = estado
-        _canal = 1
-        _volumen = 1
-        _precio = 500
-        _control = None
+        self._canal = 1
+        self._volumen = 1
+        self._precio = 500
+        self._control = None
         TV._numTV += 1
 
     def setMarca(self, marca):
